@@ -34,3 +34,5 @@ spike_train = get_spike_train(rate, big_t, tau_ref)
 def fano_factor_of_provided_spike_train():
     # Assuming no intervals to bin the data
     return np.var(spike_train)/np.mean(spike_train)
+
+print(fano_factor_of_provided_spike_train())

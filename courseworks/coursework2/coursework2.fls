@@ -1,9 +1,9 @@
-PWD /Users/nazaal/Downloads/2018_19/courseworks/coursework2
+PWD /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.tex
-OUTPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.log
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.tex
+OUTPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
@@ -30,9 +30,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.aux
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.aux
-OUTPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.aux
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.aux
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.aux
+OUTPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -61,7 +61,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-OUTPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.pdf
+OUTPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.pdf
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -87,10 +87,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/sta.png
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/sta.png
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/sta.png
-INPUT /Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.aux
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/sta.png
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/sta.png
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/sta.png
+INPUT /Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

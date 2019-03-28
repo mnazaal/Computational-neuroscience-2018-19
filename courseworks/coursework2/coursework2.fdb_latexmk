@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1553538978 "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.tex" "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.pdf" "coursework2" 1553540059
-  "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.aux" 1553538978 449 f70dec3951436ef142f6687c8c72ebed ""
-  "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.tex" 1553540059 3774 adade82069ae204f06f00ce9406d1d89 ""
+["pdflatex"] 1553776260 "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.tex" "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.pdf" "coursework2" 1553776261
+  "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.aux" 1553776260 449 f70dec3951436ef142f6687c8c72ebed ""
+  "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.tex" 1553776261 3785 990b16a5f74afb81508427e9e2c067dd ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -58,12 +58,14 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1545160372 4220281 3fa2f17aab026157846b12b89e392863 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "coursework2.aux" 1553538978 449 f70dec3951436ef142f6687c8c72ebed ""
-  "coursework2.tex" 1553540059 3774 adade82069ae204f06f00ce9406d1d89 ""
+  "coursework2.aux" 1553776260 449 f70dec3951436ef142f6687c8c72ebed ""
+  "coursework2.tex" 1553776261 3785 990b16a5f74afb81508427e9e2c067dd ""
   "sta.png" 1553538595 22948 b9f8d89d28dd50805177767135100efe ""
   (generated)
-  "coursework2.pdf"
-  "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.log"
   "coursework2.aux"
+  "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.log"
   "coursework2.log"
+  "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.log"
+  "/Users/nazaal/Google Drive/University NotesSheetsSolutionsTexts/Computational-neuroscience-2018-19/courseworks/coursework2/coursework2.pdf"
+  "coursework2.pdf"
   "/Users/nazaal/Downloads/2018_19/courseworks/coursework2/coursework2.pdf"

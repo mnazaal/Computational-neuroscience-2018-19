@@ -4,22 +4,6 @@ from load import load_data
 import matplotlib.pyplot as plt
 
 # QUESTION 1
-
-
-def interval_statistics(vals):  # :: [[Float]] -> (Float, Float)
-    # Computes mean and variance for data in bins/intervals, assuming midpoints
-    # are the arithmetic mean of the max and min value in the bin/interval,
-    # as opposed to the mid points of the bin/interval
-    total      = (len(vals)*len(vals[0]))
-    mid_points = list(map(lambda l: ((l[0] + l[-1])/2), vals))
-    counts     = list(map(lambda l: len(l), vals))
-
-    mean         = sum([a*b for a, b in zip(mid_points, counts)])/total
-    mean_squared = sum([a*a*b for a, b in zip(mid_points, counts)])/total
-
-    return mean, (mean_squared - mean*mean)
-
-
 def fano_factor_q1():
     T_q1            = 1000*sec
     rate_q1         = 35*Hz
@@ -30,15 +14,16 @@ def fano_factor_q1():
 
     for ref in ref_periods_q1:
         for wind in window_width_q1:
-            intervals    = int(T_q1/(wind*1000))
+            bins        = [wind*i for i in range(int(T_q1))]
+            
+            #intervals    = int(T_q1/wind)
             spike_trains = get_spike_train(rate_q1, T_q1, ref)
 
             # Split into  intervals
-            spike_trains = np.array_split(spike_trains, intervals)
+            hist, bins  = np.histogram(spike_trains, bins)
 
             # Compute statistics
-            mean, var = interval_statistics(spike_trains)
-            fano_factors.append(var/mean)
+            fano_factors.append(np.var(hist)/np.mean(hist))
 
     return fano_factors
 
@@ -87,14 +72,12 @@ def fano_factor_q2():
     fano_factors = []
 
     for wind in window_width_q1:
-        intervals = int(T_q1/(wind*1000))
+        bins         = [wind*i for i in range(int(T_q1))]
 
-        # Split into  intervals
-        spike_trains = np.array_split(spike_times, intervals)
+        hist, bins  = np.histogram(spike_times, bins)
 
         # Compute statistics
-        mean, var = interval_statistics(spike_trains)
-        fano_factors.append(var/mean)
+        fano_factors.append(np.var(hist)/np.mean(hist))
 
     return fano_factors
 
@@ -114,10 +97,13 @@ def spike_trigg_avg_q3():
     window    = 100*ms
     intervals = int((20*60*sec)/(window*1000))
     stimulus  = load_data("stim.dat", float)
+    bins         = [window*i for i in range(int(len(stimulus)/1000))]
+    hist, bins   = np.histogram(stimulus, bins)
 
     stimulus_binned = np.array(np.array_split(stimulus, intervals))           # X in Wikipedia
     count_per_bin   = np.array(list(map(lambda l : len(l), stimulus_binned))) # y in Wikipedia
     total_count     = np.sum(count_per_bin)                                   # n_sp in Wikipedia
+
     STA             = (1/total_count)* (stimulus_binned.T @ count_per_bin)
     
     time_axis = [100*ms*i for i in range(len(STA))]
